@@ -1,0 +1,283 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container-fluid{
+    background-color: whitesmoke;
+    height: auto;
+}
+
+.container-fluid a{
+    color: rgb(29, 5, 150);
+    text-decoration: none;
+}
+
+.container-fluid a:hover{
+    color: rgb(29, 5, 150);
+    text-decoration: none;
+}
+.nav-bar{
+    background-color: rgb(80, 198, 56);
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.nav-bar button{
+    color: rgb(29, 5, 150);
+    width: 100px;
+    padding: 10px;
+    border-radius: 10px;
+    border:1px solid silver;
+    transition: 1s;
+    font-size: 20px;
+}
+
+.nav-bar h2{
+    color: rgb(29, 5, 150);
+}
+
+.adminTeam{
+    margin-top: 100px;
+}
+
+.admin{
+    position: relative;
+    height: 300px;
+    background-image: url("images/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding-top:20px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+}
+
+#adminImage{
+    position:absolute;
+    top: -20%;
+    left: 0;
+    width: 130px;
+    height: 120px;
+    border-radius: 50%;
+}
+
+.nav-bar button:hover{
+    background-color: rgb(9, 158, 61);
+    color: rgb(29, 5, 150);
+    width: 100px;
+    padding: 10px;
+    border-radius: 10px;
+    border:1px solid silver;
+    transform: scale(1.1);
+}
+
+.footer1{
+    background-color: rgb(222, 219, 219);
+    color: rgb(29, 5, 150);
+    
+}
+
+.footer2{
+    background-color:rgb(80, 198, 56) ;
+    color: whitesmoke;
+}
+
+.safeImg,.sustainImg,.qualityImg{
+    width:100px;
+    height: 100px;
+    display: inline-block;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.logo{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.admin i{
+    color: rgb(9, 111, 23);
+}
+
+#signInForm{
+    display: none;
+    position: absolute;
+    z-index: 2;
+    top: 100%;
+    left: 30%;
+    width: 700px;;
+    height:auto;
+    border-radius: 20px;
+}
+
+#signUpForm{
+    display: none;
+    position: absolute;
+    z-index: 2;
+    top: 100%;
+    left: 30%;
+    width: 700px;;
+    height: 500px;
+    border-radius: 20px;
+}
+
+label{
+    color: rgb(31, 158, 71);
+    font-size: large;
+}
+
+#signInForm button,#signUpForm button,#feedbackForm button{
+    width:200px;
+    color: rgb(29, 5, 150);
+}
+
+#signInForm,#signUpForm,#feedbackForm{
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.form-logo{
+    width:150px;
+    height: 150px;
+    margin-left: 100px;
+}
+
+#home{
+    height: 100vh;
+    background-image: url("images/cleaning.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#home .row{
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 50px;
+    color: rgb(29, 5, 150);
+    padding:200px 500px;
+}
+
+#home button{
+    width:200px;
+    height: auto;
+    padding: 10px;
+    border-radius: 30px;
+    font-size: 20px;
+}
+
+#home ul{
+    margin-left: 400px;
+    line-height: 30px;
+    margin-top: 80px;
+    color: rgb(31, 158, 71);;
+}
+
+#service{
+    height: auto;
+    
+}
+
+#more,#more1,#more2{
+    display: none;
+}
+
+.card{
+    width:400px;
+    height:auto;
+    transition: 1s;
+    border-radius: 10px;
+    display: inline;
+}
+
+.card:hover{
+    transform: scale(1.1);
+}
+
+.card-title img{
+    width: 400px;
+    height: 200px;
+}
+
+
+#signInForm i,#signUpForm i{
+    position: absolute;
+    top:0;
+    right:20px;
+    transition: 1s;
+    
+}
+
+#signInForm i:hover,#signUpForm i:hover{
+    transform: scale(1.1);
+}
+
+
+.contact{
+    height: auto;
+    color: rgb(29, 5, 150);
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: whitesmoke;
+
+}
+
+#service h1{
+    color: rgb(29, 5, 150);
+}
+
+#about{
+    height: 80vh;
+    background-color: whitesmoke;
+    margin-bottom: 100px;
+}
+
+#about h1{
+    color: rgb(29, 5, 150);
+}
+
+.aboutImg{
+    border-bottom: 20px;
+    height: 500px;
+    width: 600px;
+}
+
+#about p{
+    line-height: 40px;
+    color:rgb(29, 5, 150) ;
+}
+
+#feedbackForm{
+    display: none;
+    position: fixed;
+    z-index: 2;
+    top: 20%;
+    left: 30%;
+    width: 700px;;
+    height: 500px;
+    border-radius: 20px;
+}
+
+
+.address span,.phone span,.email span{
+    display: inline-block;
+    background-color: green;
+    color: whitesmoke;
+    padding: 20px;
+    width: 200px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.address i,.phone i,.email i{
+    background-color: green;
+    padding: 10px;
+    border-radius: 50%;
+}
